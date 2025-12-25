@@ -3,7 +3,6 @@ Vagrant.configure("2") do |config|
 
   config.vm.provider "virtualbox" do |v|
     v.memory = 256
-    # Это ускорит работу DNS в некоторых сетях
     v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
   end
 
