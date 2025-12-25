@@ -2,13 +2,11 @@
 - hosts: all
   become: yes
   tasks:
-    # 1. Исправляем репозитории CentOS 7, переключая их на vault.centos.org
     - name: fix centos 7 repositories
       shell: |
         sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
         sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
 
-    # 2. Устанавливаем временный DNS (Google), чтобы yum смог достучаться до репозиториев
     - name: set temporary dns for yum
       shell: echo "nameserver 8.8.8.8" > /etc/resolv.conf
 
