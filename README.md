@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/BIND_logo.svg/1200px-BIND_logo.svg.png](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/BIND_logo.svg/1200px-BIND_logo.svg.png)" alt="BIND" width="150">
+  <img src="dns_logo.jpg" alt="BIND" width="150">
 </p>
 
 ## ![Lesson](https://img.shields.io/badge/Lesson-DNS_Split--DNS-00758F?style=for-the-badge&logo=linux&logoColor=white&labelColor=111827)![Author](https://img.shields.io/badge/Author-Kamil%20Ibragimov-10B981?style=for-the-badge&logo=github&logoColor=white&labelColor=111827)![Date](https://img.shields.io/badge/Date-25.12.2025-F59E0B?style=for-the-badge&logo=calendar&logoColor=white&labelColor=111827)
